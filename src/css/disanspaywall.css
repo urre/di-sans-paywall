@@ -1,0 +1,12 @@
+.paywall-content {
+	height: auto !important;
+	overflow: auto !important;
+}
+
+.paywall-mask {
+	display: none !important;
+}
+
+#serviceplusPaywallpaywall-container {
+	display: none !important;
+}

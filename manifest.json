@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "DI Sans Paywall",
+  "description": "DI Weekend Without Paywall",
+  "version": "0.1.0",
+  "permissions": [
+    "*://*.weekend.di.se/*"
+  ],
+  "web_accessible_resources": [
+    "src/css/disanspaywall.css"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.weekend.di.se/*"
+      ],
+      "css": [
+        "src/css/disanspaywall.css"
+      ]
+    }
+  ]
+}
