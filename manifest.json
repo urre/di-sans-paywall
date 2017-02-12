@@ -3,6 +3,9 @@
   "name": "DI Sans Paywall",
   "description": "DI Weekend Without Paywall",
   "version": "0.1.0",
+  "icons": {
+    "128": "src/images/icon.png"
+  },
   "permissions": [
     "*://*.weekend.di.se/*"
   ],
